@@ -6,7 +6,7 @@
   },
   "buildpacks": [
     {
-      "url": "https://github.com/dennisg/heroku-buildpack-ant"
+      "url": "https://github.com/adjohnson916/heroku-buildpack-ant.git#build-only"
     }
   ]
 }
