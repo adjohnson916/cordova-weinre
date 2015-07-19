@@ -2,7 +2,7 @@
   "name": "weinre",
   "description": "weinre is a debugger for web pages",
   "scripts": {
-    "postdeploy": "cd weinre.server && touch personal.properties && ant build-archives && node weinre"
+    "postdeploy": "cd weinre.server && touch personal.properties && ant build-archives"
   },
   "buildpacks": [
     {
