@@ -1,15 +1,9 @@
 {
   "name": "weinre",
   "description": "weinre is a debugger for web pages",
-  "scripts": {
-    "postdeploy": "cd weinre.build && touch personal.properties && ant build-archives"
-  },
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs"
-    },
-    {
-      "url": "https://github.com/adjohnson916/heroku-buildpack-ant.git#build-only"
     }
  ]
 }
