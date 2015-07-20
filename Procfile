@@ -1,2 +1,2 @@
-web: node weinre.server/weinre
+web: cd weinre.server && node weinre
 addons:
