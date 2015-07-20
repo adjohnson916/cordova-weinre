@@ -1,2 +1,2 @@
-web: cd weinre.server && node weinre
+web: sh -c "cd weinre.server && node weinre"
 addons:
