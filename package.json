@@ -3,6 +3,7 @@
   "version": "2.0.0-pre",
   "description": "weinre is a debugger for web pages",
   "scripts": {
+    "start": "node weinre.server/weinre",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
