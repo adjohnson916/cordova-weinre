@@ -1,5 +1,9 @@
 <project default="build">
 
+  <target name="clean"></target>
+
+  <target name="install" depends="build" />
+
   <target name="build">
     <touch file="weinre.build/personal.properties" />
     <ant antfile="build.xml" dir="weinre.build" />
